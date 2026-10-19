@@ -1,0 +1,1267 @@
+{
+  "player": {
+    "name": "К",
+    "x": 10,
+    "y": 9,
+    "health": 100,
+    "max_health": 100,
+    "strength": 100,
+    "dexterity": 100,
+    "is_alive": true,
+    "is_sleeping": false,
+    "weapon": null,
+    "backpack": {
+      "items": []
+    },
+    "temp_bonuses": {},
+    "statistics": {
+      "enemies_killed": 0,
+      "food_eaten": 0,
+      "elixirs_drunk": 0,
+      "scrolls_read": 0,
+      "hits_dealt": 0,
+      "hits_missed": 0,
+      "cells_moved": 4,
+      "treasures_collected": 0,
+      "hp_lost": 0,
+      "levels_passed": 0,
+      "deaths": 0
+    },
+    "keys": [],
+    "angle": 0.0
+  },
+  "level": {
+    "number": 21,
+    "start_room_id": 0,
+    "exit_room_id": 8,
+    "rooms": [
+      {
+        "id": 0,
+        "x": 8,
+        "y": 2,
+        "width": 5,
+        "height": 6,
+        "start_room": true,
+        "exit_room": false,
+        "is_visit": true,
+        "exit_cell": null,
+        "enemies": [],
+        "items": []
+      },
+      {
+        "id": 1,
+        "x": 23,
+        "y": 4,
+        "width": 5,
+        "height": 4,
+        "start_room": false,
+        "exit_room": false,
+        "is_visit": false,
+        "exit_cell": null,
+        "enemies": [
+          {
+            "type": "VAMPIRE",
+            "x": 26,
+            "y": 5,
+            "health": 25,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "ORGE",
+            "x": 26,
+            "y": 5,
+            "health": 40,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "SNACE_MAGE",
+            "x": 26,
+            "y": 6,
+            "health": 18,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "SNACE_MAGE",
+            "x": 26,
+            "y": 6,
+            "health": 18,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          }
+        ],
+        "items": []
+      },
+      {
+        "id": 2,
+        "x": 44,
+        "y": 2,
+        "width": 7,
+        "height": 6,
+        "start_room": false,
+        "exit_room": false,
+        "is_visit": false,
+        "exit_cell": null,
+        "enemies": [
+          {
+            "type": "ZOMBI",
+            "x": 48,
+            "y": 5,
+            "health": 30,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "VAMPIRE",
+            "x": 48,
+            "y": 4,
+            "health": 25,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "PHANTOM",
+            "x": 47,
+            "y": 6,
+            "health": 10,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          }
+        ],
+        "items": []
+      },
+      {
+        "id": 3,
+        "x": 7,
+        "y": 14,
+        "width": 6,
+        "height": 4,
+        "start_room": false,
+        "exit_room": false,
+        "is_visit": false,
+        "exit_cell": null,
+        "enemies": [
+          {
+            "type": "PHANTOM",
+            "x": 9,
+            "y": 15,
+            "health": 10,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": true,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "MIMIC",
+            "x": 10,
+            "y": 13,
+            "health": 50,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": true,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": "b"
+          },
+          {
+            "type": "ZOMBI",
+            "x": 10,
+            "y": 10,
+            "health": 30,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": true,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "ORGE",
+            "x": 10,
+            "y": 11,
+            "health": 40,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": true,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          }
+        ],
+        "items": []
+      },
+      {
+        "id": 4,
+        "x": 25,
+        "y": 14,
+        "width": 7,
+        "height": 4,
+        "start_room": false,
+        "exit_room": false,
+        "is_visit": false,
+        "exit_cell": null,
+        "enemies": [
+          {
+            "type": "PHANTOM",
+            "x": 28,
+            "y": 15,
+            "health": 10,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "VAMPIRE",
+            "x": 29,
+            "y": 16,
+            "health": 25,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "ZOMBI",
+            "x": 30,
+            "y": 15,
+            "health": 30,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          }
+        ],
+        "items": []
+      },
+      {
+        "id": 5,
+        "x": 47,
+        "y": 13,
+        "width": 6,
+        "height": 5,
+        "start_room": false,
+        "exit_room": false,
+        "is_visit": false,
+        "exit_cell": null,
+        "enemies": [
+          {
+            "type": "ORGE",
+            "x": 50,
+            "y": 15,
+            "health": 40,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "SNACE_MAGE",
+            "x": 50,
+            "y": 15,
+            "health": 18,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "SNACE_MAGE",
+            "x": 49,
+            "y": 16,
+            "health": 18,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "SNACE_MAGE",
+            "x": 48,
+            "y": 14,
+            "health": 18,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          }
+        ],
+        "items": [
+          {
+            "kind": "elixir",
+            "name": "ELIXIR_DEX",
+            "x": 50,
+            "y": 14
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "x": 4,
+        "y": 23,
+        "width": 4,
+        "height": 4,
+        "start_room": false,
+        "exit_room": false,
+        "is_visit": false,
+        "exit_cell": null,
+        "enemies": [
+          {
+            "type": "VAMPIRE",
+            "x": 6,
+            "y": 25,
+            "health": 25,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "ZOMBI",
+            "x": 6,
+            "y": 25,
+            "health": 30,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          }
+        ],
+        "items": [
+          {
+            "kind": "key",
+            "name": "BLUE",
+            "x": 5,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "x": 31,
+        "y": 24,
+        "width": 6,
+        "height": 4,
+        "start_room": false,
+        "exit_room": false,
+        "is_visit": false,
+        "exit_cell": null,
+        "enemies": [
+          {
+            "type": "SNACE_MAGE",
+            "x": 34,
+            "y": 25,
+            "health": 18,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "SNACE_MAGE",
+            "x": 32,
+            "y": 26,
+            "health": 18,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          }
+        ],
+        "items": [
+          {
+            "kind": "key",
+            "name": "RED",
+            "x": 35,
+            "y": 26
+          },
+          {
+            "kind": "food",
+            "name": "BANANA",
+            "x": 34,
+            "y": 26
+          },
+          {
+            "kind": "elixir",
+            "name": "ELIXIR_ST",
+            "x": 32,
+            "y": 26
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "x": 48,
+        "y": 22,
+        "width": 4,
+        "height": 6,
+        "start_room": false,
+        "exit_room": true,
+        "is_visit": false,
+        "exit_cell": [
+          50,
+          25
+        ],
+        "enemies": [
+          {
+            "type": "MIMIC",
+            "x": 49,
+            "y": 24,
+            "health": 50,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": "%"
+          },
+          {
+            "type": "VAMPIRE",
+            "x": 50,
+            "y": 23,
+            "health": 25,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          },
+          {
+            "type": "VAMPIRE",
+            "x": 49,
+            "y": 23,
+            "health": 25,
+            "is_alive": true,
+            "vrability": 10,
+            "status_chase": false,
+            "has_attacked": false,
+            "is_resting": false,
+            "disguise_symbol": null
+          }
+        ],
+        "items": []
+      }
+    ],
+    "hallways": [
+      {
+        "start_room_id": 0,
+        "end_room_id": 3,
+        "tiles": [
+          [
+            10,
+            15
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            10,
+            14
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            10,
+            13
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            10,
+            16
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "door_color": null
+      },
+      {
+        "start_room_id": 6,
+        "end_room_id": 7,
+        "tiles": [
+          [
+            16,
+            26
+          ],
+          [
+            7,
+            26
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            29,
+            26
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            31,
+            26
+          ],
+          [
+            22,
+            26
+          ],
+          [
+            9,
+            26
+          ],
+          [
+            11,
+            26
+          ],
+          [
+            33,
+            26
+          ],
+          [
+            13,
+            26
+          ],
+          [
+            24,
+            26
+          ],
+          [
+            15,
+            26
+          ],
+          [
+            26,
+            26
+          ],
+          [
+            6,
+            26
+          ],
+          [
+            17,
+            26
+          ],
+          [
+            28,
+            26
+          ],
+          [
+            8,
+            26
+          ],
+          [
+            19,
+            26
+          ],
+          [
+            30,
+            26
+          ],
+          [
+            10,
+            26
+          ],
+          [
+            32,
+            26
+          ],
+          [
+            6,
+            25
+          ],
+          [
+            21,
+            26
+          ],
+          [
+            12,
+            26
+          ],
+          [
+            23,
+            26
+          ],
+          [
+            34,
+            26
+          ],
+          [
+            14,
+            26
+          ],
+          [
+            27,
+            26
+          ],
+          [
+            25,
+            26
+          ]
+        ],
+        "door_color": null
+      },
+      {
+        "start_room_id": 1,
+        "end_room_id": 4,
+        "tiles": [
+          [
+            25,
+            16
+          ],
+          [
+            25,
+            13
+          ],
+          [
+            25,
+            9
+          ],
+          [
+            28,
+            16
+          ],
+          [
+            25,
+            6
+          ],
+          [
+            25,
+            12
+          ],
+          [
+            25,
+            15
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            25,
+            8
+          ],
+          [
+            25,
+            14
+          ],
+          [
+            27,
+            16
+          ],
+          [
+            25,
+            11
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            25,
+            10
+          ]
+        ],
+        "door_color": "RED"
+      },
+      {
+        "start_room_id": 4,
+        "end_room_id": 6,
+        "tiles": [
+          [
+            21,
+            25
+          ],
+          [
+            28,
+            18
+          ],
+          [
+            14,
+            25
+          ],
+          [
+            12,
+            25
+          ],
+          [
+            23,
+            25
+          ],
+          [
+            28,
+            21
+          ],
+          [
+            27,
+            25
+          ],
+          [
+            28,
+            24
+          ],
+          [
+            25,
+            25
+          ],
+          [
+            16,
+            25
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            7,
+            25
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            28,
+            17
+          ],
+          [
+            28,
+            23
+          ],
+          [
+            28,
+            20
+          ],
+          [
+            9,
+            25
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            11,
+            25
+          ],
+          [
+            15,
+            25
+          ],
+          [
+            26,
+            25
+          ],
+          [
+            13,
+            25
+          ],
+          [
+            6,
+            25
+          ],
+          [
+            28,
+            16
+          ],
+          [
+            28,
+            19
+          ],
+          [
+            28,
+            22
+          ],
+          [
+            19,
+            25
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            17,
+            25
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            8,
+            25
+          ]
+        ],
+        "door_color": null
+      },
+      {
+        "start_room_id": 4,
+        "end_room_id": 3,
+        "tiles": [
+          [
+            21,
+            16
+          ],
+          [
+            12,
+            16
+          ],
+          [
+            23,
+            16
+          ],
+          [
+            14,
+            16
+          ],
+          [
+            27,
+            16
+          ],
+          [
+            25,
+            16
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            20,
+            16
+          ],
+          [
+            22,
+            16
+          ],
+          [
+            11,
+            16
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            24,
+            16
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            17,
+            16
+          ],
+          [
+            28,
+            16
+          ],
+          [
+            19,
+            16
+          ],
+          [
+            10,
+            16
+          ]
+        ],
+        "door_color": null
+      },
+      {
+        "start_room_id": 1,
+        "end_room_id": 2,
+        "tiles": [
+          [
+            31,
+            5
+          ],
+          [
+            42,
+            5
+          ],
+          [
+            33,
+            5
+          ],
+          [
+            44,
+            5
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            46,
+            5
+          ],
+          [
+            26,
+            5
+          ],
+          [
+            39,
+            5
+          ],
+          [
+            37,
+            5
+          ],
+          [
+            28,
+            5
+          ],
+          [
+            30,
+            5
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            32,
+            5
+          ],
+          [
+            43,
+            5
+          ],
+          [
+            25,
+            6
+          ],
+          [
+            29,
+            5
+          ],
+          [
+            34,
+            5
+          ],
+          [
+            45,
+            5
+          ],
+          [
+            36,
+            5
+          ],
+          [
+            47,
+            5
+          ],
+          [
+            27,
+            5
+          ],
+          [
+            25,
+            5
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            40,
+            5
+          ]
+        ],
+        "door_color": null
+      },
+      {
+        "start_room_id": 7,
+        "end_room_id": 5,
+        "tiles": [
+          [
+            48,
+            15
+          ],
+          [
+            34,
+            16
+          ],
+          [
+            34,
+            19
+          ],
+          [
+            34,
+            25
+          ],
+          [
+            37,
+            15
+          ],
+          [
+            34,
+            22
+          ],
+          [
+            50,
+            15
+          ],
+          [
+            41,
+            15
+          ],
+          [
+            43,
+            15
+          ],
+          [
+            34,
+            18
+          ],
+          [
+            34,
+            15
+          ],
+          [
+            34,
+            21
+          ],
+          [
+            45,
+            15
+          ],
+          [
+            36,
+            15
+          ],
+          [
+            34,
+            24
+          ],
+          [
+            47,
+            15
+          ],
+          [
+            38,
+            15
+          ],
+          [
+            49,
+            15
+          ],
+          [
+            40,
+            15
+          ],
+          [
+            34,
+            17
+          ],
+          [
+            34,
+            23
+          ],
+          [
+            34,
+            20
+          ],
+          [
+            34,
+            26
+          ],
+          [
+            42,
+            15
+          ],
+          [
+            44,
+            15
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            46,
+            15
+          ],
+          [
+            39,
+            15
+          ]
+        ],
+        "door_color": null
+      },
+      {
+        "start_room_id": 7,
+        "end_room_id": 8,
+        "tiles": [
+          [
+            42,
+            26
+          ],
+          [
+            37,
+            26
+          ],
+          [
+            38,
+            26
+          ],
+          [
+            44,
+            26
+          ],
+          [
+            49,
+            26
+          ],
+          [
+            50,
+            26
+          ],
+          [
+            34,
+            26
+          ],
+          [
+            40,
+            26
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            45,
+            26
+          ],
+          [
+            41,
+            26
+          ],
+          [
+            36,
+            26
+          ],
+          [
+            46,
+            26
+          ],
+          [
+            47,
+            26
+          ],
+          [
+            48,
+            26
+          ],
+          [
+            43,
+            26
+          ],
+          [
+            50,
+            25
+          ],
+          [
+            39,
+            26
+          ]
+        ],
+        "door_color": "BLUE"
+      }
+    ]
+  }
+}
